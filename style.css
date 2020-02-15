@@ -1,0 +1,32 @@
+
+body { background-color: rgb(191, 191, 191) ; }
+h1 { font-family: helvetica ;
+font-size: 30px }
+
+h2,h3 { font-family: courrier;
+font-size: 20px 
+font-weight : bold; }
+
+a { text-decoration: none; 
+color: red ; }
+
+a:hover {color: green;}
+
+.container { width: 1200px ;
+margin: 30px auto;
+text-align: center
+ }
+
+
+@media (max-width: 500px) {
+	.container {width: 400px}
+}
+
+@media (max-width: 760px) {
+	.container {width: 600px}
+}
+
+.list-inline {list-style: none}
+
+.list-inline li { display: inline;
+padding: 50px }
